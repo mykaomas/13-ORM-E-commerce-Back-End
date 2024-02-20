@@ -3,9 +3,6 @@ const routes = require('./routes');
 // Import your Sequelize connection
 const sequelize = require('./config/connection');
 
-// Import models from the models folder
-const { Product, Category, Tag, ProductTag, } = require('./models')
-
 // Sync the defined models with the database
 sequelize.sync({ force: false })
   .then(() => {
