@@ -42,5 +42,5 @@ The project relies on the following dependencies:
 - **mysql2**: MySQL client for Node.js.
 - **sequelize**: An ORM for Node.js, used for interacting with the MySQL database.
 
-License
+## License
 This project is licensed under the [MIT License](./LICENSE).
